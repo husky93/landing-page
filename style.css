@@ -136,6 +136,24 @@ p {
     height: 164px;
     border: 3px #3882f6 solid;
     border-radius: 12px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_img.luwak {
+    background-image: url("./luwak.jpg");
+}
+
+.card_img.poo {
+    background-image: url("./poo.jpg");
+}
+
+.card_img.coffee-beans {
+    background-image: url("./coffee-beans.jpg");
+}
+
+.card_img.coffee {
+    background-image: url("./coffee-cup.jpg");
 }
 
 .card_description {
