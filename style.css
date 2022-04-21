@@ -1,3 +1,49 @@
+/* General */
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1264px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+
+/* ~> Hero */
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+/* ~> Hero > Top */
+
+.hero_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ~> Hero > Content */
+
+.hero_content {
+    display: flex;
+}
+
+.hero_content .box {
+    flex: 1;
+}
+
+.img--header {
+    width: 400px;
 }
