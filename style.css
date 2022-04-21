@@ -105,12 +105,36 @@ p {
 
 /* ~> Information */
 
+.information {
+    margin-bottom: 84px;
+}
+
 .information h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-top: 0;
 }
 
 .box.information_box {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    width: 164px;
+}
+
+.card_img {
+    width: 100%;
+    height: 164px;
+    border: 3px #3882f6 solid;
+    border-radius: 12px;
+}
+
+.card_description {
+    margin-top: 8px;
+    color: #1f2937;
 }
