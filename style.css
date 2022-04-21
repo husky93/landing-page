@@ -23,6 +23,10 @@ p {
     padding: 24px;
 }
 
+.ta-center {
+    text-align: center;
+}
+
 
 /* ~> Hero */
 
@@ -97,4 +101,16 @@ p {
     font-weight: 700;
     font-size: 16px;
     padding: 8px 32px;
+}
+
+/* ~> Information */
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.box.information_box {
+    display: flex;
 }
