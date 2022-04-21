@@ -103,6 +103,10 @@ p {
     padding: 8px 32px;
 }
 
+.btn--secondary {
+    border: 2px #f9faf8 solid;
+}
+
 /* ~> Information */
 
 .information {
@@ -162,4 +166,26 @@ p {
 .quote_label {
     align-self: flex-end;
     font-weight: 700;
+    font-size:18px;
+}
+
+/* ~> Signup */
+
+.signup{
+    padding: 64px 0;
+}
+
+.signup_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #f9faf8;
+    padding: 32px 128px; 
+}
+
+.signup_content h3 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
 }
