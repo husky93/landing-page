@@ -138,3 +138,28 @@ p {
     margin-top: 8px;
     color: #1f2937;
 }
+
+/* ~> Quote */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote blockquote {
+    text-align: left;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote_para {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote_label {
+    align-self: flex-end;
+    font-weight: 700;
+}
