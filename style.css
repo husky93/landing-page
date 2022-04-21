@@ -16,7 +16,7 @@ a {
 .container {
     max-width: 1264px;
     margin: 0 auto;
-    padding: 32px;
+    padding: 24px;
 }
 
 
@@ -32,7 +32,20 @@ a {
 .hero_top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 84px;
 }
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar_link {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 16px;
+}
+
 
 /* ~> Hero > Content */
 
@@ -44,6 +57,11 @@ a {
     flex: 1;
 }
 
+.hero_box--right {
+    text-align: right;
+}
+
 .img--header {
-    width: 400px;
+    width: 500px;
+    height: 250px;
 }
